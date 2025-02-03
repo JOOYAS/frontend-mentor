@@ -7,7 +7,7 @@ const C1 = () => {
 				<figure className='xl:p-6'>
 					<img
 						className='w-full xl:rounded-lg overflow-hidden'
-						src='./src/assets/images/image-omelette.jpeg'
+						src='/src/assets/images/image-omelette.jpeg'
 						alt='picture of an omelette'
 					/>
 				</figure>
