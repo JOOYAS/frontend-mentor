@@ -1,13 +1,14 @@
 import React from 'react'
+import omeletteImage from "/src/assets/images/image-omelette.jpeg";
 
 const C1 = () => {
-  return (
+	return (
 		<div className='xl:bg-rose-100 xl:px-80 xl:py-28 '>
 			<div className='bg-white md:rounded-xl'>
 				<figure className='xl:p-6'>
 					<img
 						className='w-full xl:rounded-lg overflow-hidden'
-						src='../../../src/assets/images/image-omelette.jpeg'
+						src={omeletteImage}
 						alt='picture of an omelette'
 					/>
 				</figure>
@@ -190,7 +191,7 @@ const C1 = () => {
 				</div>
 			</div>
 		</div>
-  );
-}
+	);
+};
 
 export default C1
