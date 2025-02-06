@@ -3,18 +3,18 @@ import omeletteImage from "/src/assets/images/image-omelette.jpeg";
 
 const C1 = () => {
 	return (
-		<div className='xl:bg-rose-100 xl:px-80 xl:py-28 '>
-			<div className='bg-white md:rounded-xl'>
-				<figure className='xl:p-6'>
+		<div className='xl:bg-rose-100 xl:px-96 xl:py-28 text-gray-700'>
+			<div className='bg-white md:rounded-2xl'>
+				<figure className='xl:p-8'>
 					<img
-						className='w-full xl:rounded-lg overflow-hidden'
+						className='w-full xl:rounded-xl overflow-hidden'
 						src={omeletteImage}
 						alt='picture of an omelette'
 					/>
 				</figure>
 
 				<div className='px-10'>
-					<h1 className='text-4xl py-8 font-bold font-youngserif'>
+					<h1 className='text-4xl py-8 font-medium font-youngserif'>
 						Simple Omelette Recipe
 					</h1>
 					<p className='font-outfit'>
