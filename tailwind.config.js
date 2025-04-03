@@ -28,6 +28,9 @@ export default {
 					900: "hsl(24, 5%, 18%)",
 				},
 			},
+			spacing: {
+				85: "19rem", // Adjust as needed
+			},
 		},
 	},
 	plugins: [],

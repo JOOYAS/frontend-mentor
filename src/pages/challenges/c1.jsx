@@ -3,7 +3,7 @@ import omeletteImage from "/src/assets/images/image-omelette.jpeg";
 
 const C1 = () => {
 	return (
-		<div className='xl:bg-weird_rose xl:p-80 xl:py-28 text-gray-700'>
+		<div className='xl:bg-weird_rose xl:px-85 xl:py-28 text-gray-700'>
 			<div className='bg-white text-stone-600 md:rounded-2xl'>
 				<figure className='xl:p-8'>
 					<img
@@ -29,7 +29,7 @@ const C1 = () => {
 						</h3>
 						<ul className='list-disc px-6 space-y-2 font-outfit'>
 							<li>
-								<div className='pl-6'>
+								<div className='pl-4'>
 									<span className='text-stone-900 font-bold'>
 										Total:
 									</span>{" "}
@@ -37,7 +37,7 @@ const C1 = () => {
 								</div>
 							</li>
 							<li>
-								<div className='pl-6'>
+								<div className='pl-4'>
 									<span className='text-stone-900 font-bold'>
 										Preparation:
 									</span>{" "}
@@ -45,7 +45,7 @@ const C1 = () => {
 								</div>
 							</li>
 							<li>
-								<div className='pl-6'>
+								<div className='pl-4'>
 									<span className='text-stone-900 font-bold'>
 										Cooking:
 									</span>{" "}
@@ -60,16 +60,16 @@ const C1 = () => {
 						</h2>
 						<ul className='list-disc p-6 space-y-2 font-outfit'>
 							<li>
-								<div className='pl-6'>2-3 large eggs</div>
+								<div className='pl-4'>2-3 large eggs</div>
 							</li>
 							<li>
-								<div className='pl-6'>Salt, to taste</div>
+								<div className='pl-4'>Salt, to taste</div>
 							</li>
 							<li>
-								<div className='pl-6'>Pepper, to taste</div>
+								<div className='pl-4'>Pepper, to taste</div>
 							</li>
 							<li>
-								<div className='pl-6'>
+								<div className='pl-4'>
 									1 tablespoon of butter or oil
 								</div>
 							</li>
@@ -86,10 +86,10 @@ const C1 = () => {
 						<h2 className='font-bold text-2xl pb-6 font-youngserif text-brown-800'>
 							Instructions
 						</h2>
-						<ol className='list-decimal pl-6 list-outside space-y-4 font-outfit'>
+						<ol className='list-decimal pl-6 list-outside space-y-2 font-outfit'>
 							<li>
-								<div className='pl-6'>
-									<span className='font-bold'>
+								<div className='pl-4'>
+									<span className='text-stone-900 font-bold'>
 										Beat the eggs:
 									</span>{" "}
 									In a bowl, beat the eggs with a pinch of
@@ -99,8 +99,8 @@ const C1 = () => {
 								</div>
 							</li>
 							<li>
-								<div className='pl-6'>
-									<span className=' font-bold'>
+								<div className='pl-4'>
+									<span className='text-stone-900 font-bold'>
 										Heat the pan:
 									</span>{" "}
 									Place a non-stick frying pan over medium
@@ -108,7 +108,7 @@ const C1 = () => {
 								</div>
 							</li>
 							<li>
-								<div className='pl-6'>
+								<div className='pl-4'>
 									<span className='text-stone-900 font-bold'>
 										Cook the omelette:
 									</span>{" "}
@@ -118,7 +118,7 @@ const C1 = () => {
 								</div>
 							</li>
 							<li>
-								<div className='pl-6'>
+								<div className='pl-4'>
 									<span className='text-stone-900 font-bold'>
 										Add fillings (optional):
 									</span>{" "}
@@ -129,7 +129,7 @@ const C1 = () => {
 								</div>
 							</li>
 							<li>
-								<div className='pl-6'>
+								<div className='pl-4'>
 									<span className='text-stone-900 font-bold'>
 										Fold and serve:
 									</span>{" "}
@@ -140,7 +140,7 @@ const C1 = () => {
 								</div>
 							</li>
 							<li>
-								<div className='pl-6'>
+								<div className='pl-4'>
 									<span className='text-stone-900 font-bold'>
 										Enjoy:
 									</span>{" "}
@@ -159,28 +159,28 @@ const C1 = () => {
 							The table below shows nutritional values per serving
 							without the additional fillings.
 						</p>
-						<table className='my-6 text-lg w-full'>
-							<tbody className='leading-[60px]'>
-								<tr className='border-b-4'>
-									<td>Calories</td>
+						<table className='my-2 text-lg w-full'>
+							<tbody className='leading-[40px]'>
+								<tr className='border-b-2'>
+									<td className='pl-6'>Calories</td>
 									<td className='text-stone-900 font-bold'>
 										277kcal
 									</td>
 								</tr>
-								<tr className=' border-b-4'>
-									<td>Carbs</td>
+								<tr className=' border-b-2'>
+									<td className='pl-6'>Carbs</td>
 									<td className='text-stone-900 font-bold'>
 										0g
 									</td>
 								</tr>
-								<tr className='border-b-4'>
-									<td>Protein</td>
+								<tr className='border-b-2'>
+									<td className='pl-6'>Protein</td>
 									<td className='text-stone-900 font-bold'>
 										20g
 									</td>
 								</tr>
 								<tr>
-									<td>Fat</td>
+									<td className='pl-6'>Fat</td>
 									<td className='text-stone-900 font-bold'>
 										22g
 									</td>
