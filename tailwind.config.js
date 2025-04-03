@@ -29,7 +29,7 @@ export default {
 				},
 			},
 			spacing: {
-				85: "19rem", // Adjust as needed
+				85: "20rem", // Adjust as needed
 			},
 		},
 	},

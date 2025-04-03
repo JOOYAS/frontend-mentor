@@ -14,7 +14,7 @@ const C1 = () => {
 				</figure>
 
 				<div className='px-10'>
-					<h1 className='text-4xl pb-8 text-stone-900 font-normal font-youngserif'>
+					<h1 className='text-4xl py-8 xl:pb-8 text-stone-900 font-normal font-youngserif'>
 						Simple Omelette Recipe
 					</h1>
 					<p className='font-outfit font-normal text-[16px]'>
@@ -24,9 +24,9 @@ const C1 = () => {
 						cheese, vegetables, or meats.
 					</p>
 					<div className='mt-8 bg-rose-50 rounded-xl p-5'>
-						<h3 className='text-xl text-stone-900 font-bold font-outfit pb-4'>
+						<h2 className='text-xl text-stone-900 font-bold font-outfit pb-4'>
 							Preparation time
-						</h3>
+						</h2>
 						<ul className='list-disc px-6 space-y-2 font-outfit'>
 							<li>
 								<div className='pl-4'>
@@ -159,7 +159,7 @@ const C1 = () => {
 							The table below shows nutritional values per serving
 							without the additional fillings.
 						</p>
-						<table className='my-2 text-lg w-full'>
+						<table className='my-4 text-lg w-full'>
 							<tbody className='leading-[40px]'>
 								<tr className='border-b-2'>
 									<td className='pl-6'>Calories</td>
